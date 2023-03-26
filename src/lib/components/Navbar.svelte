@@ -27,7 +27,6 @@
 		<NavLi href="/">Home</NavLi>
 		<NavLi href="/about">About</NavLi>
 		<NavLi href="/members">Members</NavLi>
-		<NavLi href="/music">Music</NavLi>
 		<NavLi href="/calendar">Calendar</NavLi>
 		<NavLi href="/contact">Contact</NavLi>
 	</NavUl>
