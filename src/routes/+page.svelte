@@ -43,8 +43,8 @@
 			</SplideSlide>
 		</Splide>
 	</div>
-	<div class="basis-2/4 flex flex-col items-center h-3/4">
-		<h2 class="text-5xl text-center mb-16">Upcoming shows</h2>
+	<div class="basis-2/4 flex flex-col items-center self-start h-full">
+		<h2 class="text-5xl text-center my-8">Upcoming shows</h2>
 		<GoogleCalendar />
 	</div>
 </div>
