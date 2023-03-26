@@ -15,7 +15,7 @@
 </script>
 
 <div class="flex flex-col md:flex-row justify-center items-center flex-auto p-4">
-	<div class="basis-2/4 mb-10 md:mb-0">
+	<div class="basis-2/4 flex justify-center mb-10 md:mb-0">
 		<Splide
 			aria-label="My Favorite Images"
 			options={{
@@ -44,7 +44,7 @@
 			</SplideSlide>
 		</Splide>
 	</div>
-	<div id="foo" class="basis-2/4 flex flex-col items-center h-3/4">
+	<div class="basis-2/4 flex flex-col items-center h-3/4">
 		<h2 class="text-5xl text-center mb-16">Upcoming shows</h2>
 		<GoogleCalendar />
 	</div>
@@ -52,7 +52,7 @@
 
 <style lang="scss">
 	img {
-		max-width: 100%;
-		max-height: 100%;
+		max-width: 80%;
+		max-height: 80%;
 	}
 </style>

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
 @import url('https://fonts.googleapis.com/css?family=Delicious+Handrawn');
 
 * {
@@ -15,6 +16,7 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex: 1 1 auto;
+	max-width: 100%;
 }
 
 body {
@@ -29,6 +31,47 @@ button,
 textarea,
 select {
 	font: inherit;
+}
+
+/* Set the width and height of the scrollbar */
+::-webkit-scrollbar {
+	width: 16px;
+	height: 16px;
+	padding: 2px;
+}
+
+/* Set the background color of the scrollbar track */
+::-webkit-scrollbar-track {
+	background-color: #262626;
+}
+
+/* Set the color and border of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+	background-color: #262626;
+	border-radius: 10px;
+	border: 3px solid #3f3f46;
+}
+
+/* Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #3f3f46 #262626;
+}
+
+/* Internet Explorer */
+*::-ms-scrollbar {
+	width: 16px;
+	height: 16px;
+}
+
+*::-ms-scrollbar-thumb {
+	background-color: #3f3f46;
+	border-radius: 10px;
+	border: 3px solid #262626;
+}
+
+*::-ms-scrollbar-track {
+	background-color: #262626;
 }
 
 @media (max-width: 768px) {
