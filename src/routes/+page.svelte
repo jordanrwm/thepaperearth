@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 	import '@splidejs/svelte-splide/css';
 	import '@splidejs/svelte-splide/css/core';
@@ -49,10 +48,3 @@
 		<GoogleCalendar />
 	</div>
 </div>
-
-<style lang="scss">
-	img {
-		max-width: 80%;
-		max-height: 80%;
-	}
-</style>

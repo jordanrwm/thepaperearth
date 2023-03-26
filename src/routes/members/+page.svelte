@@ -63,8 +63,8 @@
 	}
 
 	img {
-		width: 60%;
-		height: 60%;
+		width: 75%;
+		height: 75%;
 	}
 
 	@media (max-width: 768px) {
