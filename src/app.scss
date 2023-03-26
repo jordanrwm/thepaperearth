@@ -30,3 +30,38 @@ textarea,
 select {
 	font: inherit;
 }
+
+@media (max-width: 768px) {
+	.splide {
+		max-width: 90vw !important;
+	}
+}
+
+.splide__slide {
+	display: flex;
+	justify-content: center;
+}
+
+.splide__arrow svg {
+	fill: white;
+}
+
+.splide__arrow--prev {
+	left: 0;
+}
+.splide__arrow--next {
+	right: 0;
+}
+
+@media (max-width: 768) {
+	.splide__arrow--prev {
+		left: 1;
+	}
+	.splide__arrow--next {
+		right: 1;
+	}
+}
+
+.splide__pagination__page {
+	background: black;
+}
