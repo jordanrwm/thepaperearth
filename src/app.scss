@@ -86,8 +86,11 @@ select {
 	justify-content: center;
 }
 
-.splide__arrow svg {
-	fill: white;
+.splide__arrow {
+	background: none !important;
+	svg {
+		fill: white !important;
+	}
 }
 
 .splide__arrow--prev {
@@ -107,5 +110,5 @@ select {
 }
 
 .splide__pagination__page {
-	background: black;
+	background: black !important;
 }

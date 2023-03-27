@@ -14,7 +14,7 @@
 </script>
 
 <div class="flex flex-col md:flex-row justify-center items-center flex-auto p-4">
-	<div class="basis-2/4 flex justify-center mb-10 md:mb-2">
+	<div class="basis-2/4 flex justify-center mb-10 md:mb-0">
 		<Splide
 			aria-label="My Favorite Images"
 			options={{
