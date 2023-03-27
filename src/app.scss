@@ -93,22 +93,6 @@ select {
 	}
 }
 
-.splide__arrow--prev {
-	left: 0;
-}
-.splide__arrow--next {
-	right: 0;
-}
-
-@media (max-width: 768) {
-	.splide__arrow--prev {
-		left: 1;
-	}
-	.splide__arrow--next {
-		right: 1;
-	}
-}
-
 .splide__pagination__page {
-	background: black !important;
+	background: white !important;
 }
