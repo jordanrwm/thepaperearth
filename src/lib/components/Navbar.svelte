@@ -15,7 +15,7 @@
 		<span class="self-center whitespace-nowrap text-xl font-semibold nav-header">
 			The Paper Earth
 		</span>
-		<img src={pepe} class="ml-3 mt-2 h-8 sm:h-9" alt="The Paper Earth Logo" />
+		<img src={pepe} class="ml-3 mt-1 h-8 sm:h-9" alt="The Paper Earth Logo" />
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
 	<NavUl
