@@ -6,6 +6,10 @@
 	import zac from '$lib/assets/zac.jpg';
 </script>
 
+<svelte:head>
+	<title>Members - The Paper Earth</title>
+</svelte:head>
+
 <div class="flex flex-col items-center justify-center flex-auto p-4 overflow-x-hidden">
 	<div class="flex flex-col md:flex-row items-center justify-center mb-16 md:mb-36 mt-8">
 		<div class="basis-2/4 flex flex-col items-center">

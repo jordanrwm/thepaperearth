@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
-	import { onMount } from 'svelte';
+	import pepe from '../assets/pepe.png';
 </script>
 
 <Navbar
@@ -15,6 +15,7 @@
 		<span class="self-center whitespace-nowrap text-xl font-semibold nav-header">
 			The Paper Earth
 		</span>
+		<img src={pepe} class="ml-3 mt-2 h-8 sm:h-9" alt="The Paper Earth Logo" />
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
 	<NavUl

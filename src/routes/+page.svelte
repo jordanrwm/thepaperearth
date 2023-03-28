@@ -11,7 +11,12 @@
 	import bungalow4 from '$lib/assets/bungalow4.jpg';
 	import bungalow5 from '$lib/assets/bungalow5.jpg';
 	import bungalow6 from '$lib/assets/bungalow6.jpg';
+	import bungalow7 from '$lib/assets/bungalow7.jpg';
 </script>
+
+<svelte:head>
+	<title>The Paper Earth</title>
+</svelte:head>
 
 <div class="flex flex-col md:flex-row justify-center items-center flex-auto p-4">
 	<div class="basis-2/4 flex justify-center mb-10 md:mb-0">
@@ -24,22 +29,25 @@
 			}}
 		>
 			<SplideSlide>
-				<img src={bungalow1} alt="Bungalow 1" />
+				<img src={bungalow1} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={bungalow2} alt="Bungalow 1" />
+				<img src={bungalow2} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={bungalow3} alt="Bungalow 1" />
+				<img src={bungalow3} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={bungalow4} alt="Bungalow 1" />
+				<img src={bungalow4} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={bungalow5} alt="Bungalow 1" />
+				<img src={bungalow5} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={bungalow6} alt="Bungalow 1" />
+				<img src={bungalow6} alt="The Paper Earth at The Bungalow" />
+			</SplideSlide>
+			<SplideSlide>
+				<img src={bungalow7} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 		</Splide>
 	</div>

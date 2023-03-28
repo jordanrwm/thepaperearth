@@ -2,6 +2,10 @@
 	import band from '$lib/assets/band-about.jpg';
 </script>
 
+<svelte:head>
+	<title>About - The Paper Earth</title>
+</svelte:head>
+
 <div class="flex flex-col md:flex-row justify-center items-center flex-auto p-4">
 	<div class="basis-2/4 flex justify-center mb-6 mt-6 md:mb-0 md:mt-0">
 		<img src={band} alt="Bungalow 1" />
