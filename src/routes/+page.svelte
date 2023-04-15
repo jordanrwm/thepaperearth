@@ -5,13 +5,13 @@
 
 	import GoogleCalendar from '$lib/components/GoogleCalendar.svelte';
 
-	import bungalow1 from '$lib/assets/bungalow1.jpg';
-	import bungalow2 from '$lib/assets/bungalow2.jpg';
-	import bungalow3 from '$lib/assets/bungalow3.jpg';
-	import bungalow4 from '$lib/assets/bungalow4.jpg';
-	import bungalow5 from '$lib/assets/bungalow5.jpg';
-	import bungalow6 from '$lib/assets/bungalow6.jpg';
-	import bungalow7 from '$lib/assets/bungalow7.jpg';
+	import sam from '$lib/assets/main_sam.jpg';
+	import pj from '$lib/assets/main_pj.jpg';
+	import cj from '$lib/assets/main_cj.jpg';
+	import tommy from '$lib/assets/main_tommy.jpg';
+	import zac from '$lib/assets/main_zac.jpg';
+	import crowd from '$lib/assets/main_crowd.jpg';
+	import jj from '$lib/assets/main_jj.jpg';
 </script>
 
 <svelte:head>
@@ -29,25 +29,25 @@
 			}}
 		>
 			<SplideSlide>
-				<img src={bungalow1} alt="The Paper Earth at The Bungalow" />
+				<img src={sam} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={bungalow2} alt="The Paper Earth at The Bungalow" />
+				<img src={pj} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={bungalow3} alt="The Paper Earth at The Bungalow" />
+				<img src={cj} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={bungalow4} alt="The Paper Earth at The Bungalow" />
+				<img src={tommy} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={bungalow5} alt="The Paper Earth at The Bungalow" />
+				<img src={zac} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={bungalow6} alt="The Paper Earth at The Bungalow" />
+				<img src={crowd} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={bungalow7} alt="The Paper Earth at The Bungalow" />
+				<img src={jj} alt="The Paper Earth at The Bungalow" />
 			</SplideSlide>
 		</Splide>
 	</div>
