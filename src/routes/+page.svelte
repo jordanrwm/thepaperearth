@@ -24,8 +24,8 @@
 			aria-label="My Favorite Images"
 			options={{
 				type: 'loop',
-				width: '40vw',
-				heightRatio: 1
+				width: '30vw',
+				heightRatio: 1.3
 			}}
 		>
 			<SplideSlide>
@@ -51,7 +51,7 @@
 			</SplideSlide>
 		</Splide>
 	</div>
-	<div class="basis-2/4 flex flex-col items-center justify-center h-full">
+	<div class="basis-2/4 flex flex-col items-center justify-center h-full md:mr-16">
 		<h2 class="text-5xl text-center mb-4 md:mb-0 leading-snug">Upcoming shows</h2>
 		<GoogleCalendar />
 	</div>
