@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	@apply h-full overflow-y-auto overflow-x-hidden;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	display: flex;
+	flex: 1 1 auto;
+	max-width: 100%;
+}
+
+body {
+	font-family: 'BioRhyme', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
