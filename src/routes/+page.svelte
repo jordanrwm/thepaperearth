@@ -57,14 +57,9 @@
 		</div>
 	</div>
 	<span class="divider-vertical md:h-20 h-14" />
-	<div
-		class="w-screen md:my-12 md:py-8 md:px-20 p-6 flex md:flex-row flex-col items-center justify-center"
-	>
-		<img
-			class="basis-1/2 md:max-w-[50%] max-w-[70%] rounded-lg aspect-square"
-			src={merch}
-			alt="band merch"
-		/>
-		<h1 class="basis-1/2 p-16 text-center md:text-4xl text-lg">merch coming soon...</h1>
+	<div class="w-screen md:my-12 md:py-8 md:px-20 px-6 flex flex-col items-center justify-center">
+		<img class="md:max-h-[60vh] max-h-[60%] rounded-lg" src={merch} alt="band merch" />
+
+		<h1 class="p-8 text-start md:text-6xl text-xl">merch coming soon...</h1>
 	</div>
 </div>

@@ -7,7 +7,7 @@
 	<h1 class="md:text-6xl text-xl text-center">Contact Us</h1>
 	<div class="my-auto md:py-8 md:px-20 p-6 flex flex-col items-center md:space-y-10 space-y-6">
 		<img
-			class="md:max-w-[60%] max-w-[90%] aspect-auto rounded-lg"
+			class="md:max-h-[40vh] max-h-[90%] aspect-auto rounded-lg"
 			src={band}
 			alt="band group pic"
 		/>
