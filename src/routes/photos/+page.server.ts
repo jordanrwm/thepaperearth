@@ -10,7 +10,8 @@ const getPhotoData = async () => {
 	const photos = await cloudinary.api.resources({
 		type: 'upload',
 		prefix: 'thepaperearth/',
-		max_results: 100
+		max_results: 100,
+		transformation: [{ quality: 'auto' }, { fetch_format: 'auto' }, { width: 'auto' }]
 	});
 
 	const imageUrls = photos.resources.map((resource: { url: string }) => resource.url);

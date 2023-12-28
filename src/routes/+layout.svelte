@@ -8,6 +8,9 @@
 	initializeStores();
 </script>
 
+<svelte:head>
+	<title>The Paper Earth</title>
+</svelte:head>
 <div class="flex flex-col w-full">
 	<HeaderDrawer />
 	<Header />

@@ -3,7 +3,6 @@
 	export let data;
 
 	const photoData = shufflePhotos(data.photoData) ?? [];
-	console.log('photos', photoData);
 </script>
 
 <div class="p-10 flex-1">
