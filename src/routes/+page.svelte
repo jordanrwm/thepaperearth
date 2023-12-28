@@ -8,6 +8,11 @@
 
 	const calendarData = data.calendarData ?? [];
 	const photoData = data.photoData ?? [];
+
+	const gridSizes: { [key: number]: string } = {
+		1: 'grid-cols-1',
+		2: 'md:grid-cols-2 grid-cols-1'
+	};
 </script>
 
 <div class="flex flex-1 flex-col">
@@ -38,22 +43,24 @@
 	<div class="w-screen md:my-12 md:py-8 md:px-20 mb-2 p-6 flex flex-col items-center">
 		<h1 class="basis-1/3 md:text-6xl text-xl underline md:mb-16 mb-4">Upcoming Shows</h1>
 		<div class="basis-2/3 flex flex-col items-end space-y-8">
-			{#each calendarData as event}
-				<div class="card md:p-6 p-4 md:w-96">
-					<h2 class="md:text-4xl text-lg text-primary-500">{event.summary}</h2>
-					<p class="md:text-2xl text-xs">
-						{new Date(event.start?.dateTime ?? '').toLocaleDateString('en-us', {
-							weekday: 'long',
-							year: 'numeric',
-							month: 'long',
-							day: 'numeric'
-						})}
-					</p>
-					<p class="md:text-2xl text-xs">
-						{event.location ?? ''}
-					</p>
-				</div>
-			{/each}
+			<div class={`grid justify-items-center gap-8 ${gridSizes[Math.min(2, calendarData.length)]}`}>
+				{#each calendarData as event}
+					<div class="card md:p-6 p-4 md:w-96 flex flex-col gap-4">
+						<h2 class="md:text-4xl text-lg text-primary-500">{event.summary}</h2>
+						<p class="text-secondary-500 md:text-2xl text-xs">
+							{new Date(event.start?.dateTime ?? '').toLocaleDateString('en-us', {
+								weekday: 'long',
+								year: 'numeric',
+								month: 'long',
+								day: 'numeric'
+							})}
+						</p>
+						<p class="md:text-2xl text-xs underline">
+							{@html event.description ?? ''}
+						</p>
+					</div>
+				{/each}
+			</div>
 		</div>
 	</div>
 	<span class="divider-vertical md:h-20 h-14" />
