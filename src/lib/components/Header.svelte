@@ -10,7 +10,9 @@
 	};
 </script>
 
-<header class="sticky top-0 z-10 bg-surface-800 p-4 md:h-14 h-12 flex items-center justify-between">
+<header
+	class="w-full sticky top-0 z-10 bg-surface-800 p-4 md:h-14 h-12 flex items-center justify-between"
+>
 	<div><a class="w-fit font-extrabold md:text-lg text-xs" href="/">The Paper Earth</a></div>
 	<div class="md:flex hidden space-x-8">
 		<a class="w-fit md:text-md text-xs" href="//thepaperearth.bigcartel.com">Merch</a>
