@@ -23,6 +23,16 @@
 		>
 		<a
 			class="w-fit text-xl"
+			href="//thepaperearth.bigcartel.com"
+			on:click={() => {
+				closeDrawer();
+			}}
+			on:keydown={() => {
+				closeDrawer();
+			}}>Merch</a
+		>
+		<a
+			class="w-fit text-xl"
 			href="/photos"
 			on:click={() => {
 				closeDrawer();

@@ -67,6 +67,9 @@
 	<div class="w-screen md:my-12 md:py-8 md:px-20 px-6 flex flex-col items-center justify-center">
 		<img class="md:max-h-[60vh] max-h-[60%] rounded-lg" src={merch} alt="band merch" />
 
-		<h1 class="p-8 text-start md:text-6xl text-xl">merch coming soon...</h1>
+		<h1 class="md:p-8 p-4 text-start md:text-6xl text-xl">merch now available!</h1>
+		<a class="text-start md:text-4xl text-lg underline" href="//thepaperearth.bigcartel.com"
+			>check it out here</a
+		>
 	</div>
 </div>
